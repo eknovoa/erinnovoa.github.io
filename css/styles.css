@@ -98,6 +98,46 @@
   }
 }
 
+/*  Media Query */
+@media only screen and (max-width: 320px){
+  .career-description1 {
+    position: relative;
+    bottom: 100px;
+    right: 10px;
+    text-align: center;
+    color: #393534;
+    padding-top: 10px;
+  }
+
+  table, th, td, tr {
+		display: block;
+
+	}
+
+  .work-table {
+    border: none;
+    overflow-x: auto;
+    white-space: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  table {
+    border: none;
+  }
+
+  #about-me-plus-skills {
+    background-color: #FFF;
+    text-align: center;
+    padding: 50px 12%;
+  }
+}
+
+
+
+
+
 #intro {
   background-color: #e3f2fd;
   padding-bottom: 50px;
