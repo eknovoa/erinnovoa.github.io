@@ -1,0 +1,319 @@
+ body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+  background-color: #e3f2fd;
+  padding: 5% 10%;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #393534;
+}
+
+
+#intro {
+  text-align: center;
+}
+.box1 {
+  border: 2px solid #393534;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  z-index: 1;
+}
+
+.box2 {
+  border: 2px solid #79a3b1;
+  background-color: #79a3b1;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  left: 100px;
+}
+
+.about-me {
+  position: relative;
+  writing-mode: vertical-rl;
+  left: 200px;
+  font-size: 1.5rem;
+  color: #393534;
+}
+
+.container-fluid {
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-bottom: 10%;
+}
+
+.name-intro {
+  position: relative;
+  bottom: 110px;
+  right: 10px;
+  text-align: center;
+  font-family: 'Yusei Magic', sans-serif;
+  color: #393534;
+}
+
+.career-description, .career-description1 {
+  position: relative;
+  bottom: 100px;
+  right: 10px;
+  text-align: center;
+  color: #393534;
+}
+
+/* Media Query */
+@media only screen and (max-width: 600px){
+  .career-description1 {
+    position: relative;
+    bottom: 100px;
+    right: 10px;
+    text-align: center;
+    color: #393534;
+    padding-top: 10px;
+  }
+
+  table, th, td, tr {
+		display: block;
+
+	}
+
+  .work-table {
+    border: none;
+    overflow-x: auto;
+    white-space: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  table {
+    border: none;
+  }
+
+  #about-me-plus-skills {
+    background-color: #FFF;
+    text-align: center;
+    padding: 50px 12%;
+  }
+}
+
+
+/*  Media Query */
+@media only screen and (max-width: 480px){
+  .career-description1 {
+    position: relative;
+    bottom: 100px;
+    right: 10px;
+    text-align: center;
+    color: #393534;
+    padding-top: 10px;
+  }
+
+  table, th, td, tr {
+		display: block;
+
+	}
+
+  .work-table {
+    border: none;
+    overflow-x: auto;
+    white-space: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  table {
+    border: none;
+  }
+
+  #about-me-plus-skills {
+    background-color: #FFF;
+    text-align: center;
+    padding: 50px 12%;
+  }
+}
+
+
+
+
+
+#intro {
+  background-color: #e3f2fd;
+  padding-bottom: 50px;
+}
+
+
+
+hr {
+  border: none;
+}
+#about-me-plus-skills {
+  background-color: #FFF;
+  text-align: center;
+  padding: 50px 12%;
+}
+
+.about-me-description {
+  text-align: center;
+  padding: 5% 10%;
+  color: #393534;
+}
+
+
+/* Projects Section */
+
+#projects {
+  background-color: #fff;
+  color: #393534;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 60px;
+}
+
+.projects-title {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.project-skills {
+  padding-top: 10px;
+}
+
+
+.hundehutte {
+  height: 500px;
+  width: 250px;
+}
+
+.hundehutte2 {
+  height: 490px;
+  width: 250px;
+}
+
+.app-images {
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.app-description {
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 75px;
+  padding-right: 75px;
+  line-height: 1.5;
+}
+
+.app-link {
+  text-decoration: none;
+  color: black;
+}
+
+.app-link:hover {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+/* Work Section */
+
+#work {
+  color: #393534;
+  background-color: #79a3b1;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+
+}
+
+.work-title {
+  padding-bottom: 20px;
+}
+
+.work-table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table, tr, td, th {
+  justify-content: center;
+  border: 1px solid black;
+  padding: 15px 10px;
+}
+table {
+  border-spacing: 15px;
+}
+
+tr {
+  text-align: center;
+
+}
+
+.resume {
+  padding-top: 30px;
+}
+
+.resume-attachment {
+  padding-top: 20px;
+  text-decoration: none;
+  color: #393534;
+}
+
+.resume-attachment:hover {
+  font-size: 18px;
+  text-decoration: none;
+  color: #393534;
+  opacity: 0.5;
+}
+
+
+/* Contact Section */
+
+#contact {
+  color: #393534;
+  background-color: #e3f2fd;
+  text-align: center;
+  vertical-align: middle;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contact-title {
+  padding-bottom: 10px;
+}
+
+
+.social-media {
+  padding-right: 20px;
+  color: #393534;
+}
+
+.social-media:hover {
+  color: #393534;
+  opacity: 0.5;
+}
+
+
+/* Footer Section */
+
+#footer {
+  padding-top: 6% ;
+  padding-bottom: 6%;
+  background-color: #00000;
+  text-align: center;
+}
+
+.copyright {
+  /* text-align: center; */
+  color: #393534;
+  font-weight: bold;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
