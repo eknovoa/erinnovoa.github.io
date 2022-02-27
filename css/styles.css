@@ -255,6 +255,7 @@ tr {
 
 .resume {
   padding-top: 30px;
+  text-decoration: underline;
 }
 
 .resume-attachment {
