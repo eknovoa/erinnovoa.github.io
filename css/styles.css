@@ -1,22 +1,34 @@
  body {
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  /* font-family: 'Noto Sans JP', sans-serif; */
+  /* font-family: 'Playfair Display', serif; */
+  font-family: 'Lora', serif;
+  background-color: #F7F6F2;
+  color: #6C4A4A;
 }
 
 .navbar {
-  background-color: #e3f2fd;
+  /* background-color: #e3f2fd; */
+  background-color: #DDBEBE;
   padding: 5% 10%;
 }
 .navbar-brand {
-  font-size: 1.5rem;
-  color: #393534;
+  font-size: 2.5rem;
+  font-style: italic;
+  font-family: 'Mirza', serif;
+  letter-spacing: 0.05em;
 }
 
+.brand-text {
+  color: #6C4A4A;
+  font-weight: bold;
+}
 
 #intro {
   text-align: center;
 }
 .box1 {
-  border: 2px solid #393534;
+  border: 2px solid #F7F6F2;
   height: 200px;
   width: 200px;
   position: absolute;
@@ -24,8 +36,8 @@
 }
 
 .box2 {
-  border: 2px solid #79a3b1;
-  background-color: #79a3b1;
+  border: 2px solid #C89595;
+  background-color: #C89595;
   height: 200px;
   width: 200px;
   position: relative;
@@ -37,7 +49,8 @@
   writing-mode: vertical-rl;
   left: 200px;
   font-size: 1.5rem;
-  color: #393534;
+  /* color: #393534; */
+  color: #6C4A4A;
 }
 
 .container-fluid {
@@ -51,8 +64,9 @@
   bottom: 110px;
   right: 10px;
   text-align: center;
-  font-family: 'Yusei Magic', sans-serif;
-  color: #393534;
+  font-family: 'Mirza', cursive;
+  font-size: 36px;
+  color: #6C4A4A;
 }
 
 .career-description, .career-description1 {
@@ -60,7 +74,15 @@
   bottom: 100px;
   right: 10px;
   text-align: center;
-  color: #393534;
+  color: #6C4A4A;
+}
+
+/* Media Query */
+@media only screen and (max-width: 1200px) {
+  .table-border {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 /* Media Query */
@@ -70,14 +92,20 @@
     bottom: 100px;
     right: 10px;
     text-align: center;
-    color: #393534;
+    color: #6C4A4A;
     padding-top: 10px;
   }
 
   table, th, td, tr {
 		display: block;
-
 	}
+
+  .table-border {
+    border: 5px dotted #F7F6F2;
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
 
   .work-table {
     border: none;
@@ -93,7 +121,7 @@
   }
 
   #about-me-plus-skills {
-    background-color: #FFF;
+    background-color: #F7F6F2;
     text-align: center;
     padding: 50px 12%;
   }
@@ -107,30 +135,39 @@
     bottom: 100px;
     right: 10px;
     text-align: center;
-    color: #393534;
+    color: #6C4A4A;
     padding-top: 10px;
   }
-
-  table, th, td, tr {
-		display: block;
-
-	}
-
+/* 
+  #work {
+    padding-bottom: 50px;
+    padding-top: 50px;
+  } */
+  
   .work-table {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
     border: none;
-    overflow-x: auto;
-    white-space: wrap;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
   }
-
-  table {
+  
+  .table-border {
     border: none;
+    width: 50%;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+  }
+  
+  table, tr, td, th {
+    padding: 5px 5px;
+  }
+  table {
+    border-spacing: 5px;
   }
 
   #about-me-plus-skills {
-    background-color: #FFF;
+    background-color: #F7F6F2;
     text-align: center;
     padding: 50px 12%;
   }
@@ -141,7 +178,8 @@
 
 
 #intro {
-  background-color: #e3f2fd;
+  /* background-color: #e3f2fd; */
+  background-color: #DDBEBE;
   padding-bottom: 50px;
 }
 
@@ -151,7 +189,7 @@ hr {
   border: none;
 }
 #about-me-plus-skills {
-  background-color: #FFF;
+  background-color: #F7F6F2;
   text-align: center;
   padding: 50px 12%;
 }
@@ -159,15 +197,19 @@ hr {
 .about-me-description {
   text-align: center;
   padding: 5% 10%;
-  color: #393534;
+  color: #6C4A4A;
 }
 
+.favorite-apps {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
 
 /* Projects Section */
 
 #projects {
-  background-color: #fff;
-  color: #393534;
+  background-color: #F7F6F2;
+  color: #6C4A4A;
   text-align: center;
   padding-bottom: 50px;
   padding-top: 60px;
@@ -180,6 +222,7 @@ hr {
 
 .project-skills {
   padding-top: 10px;
+  color: #678983;
 }
 
 
@@ -206,12 +249,13 @@ hr {
   padding-left: 75px;
   padding-right: 75px;
   line-height: 1.5;
+  color: #6C4A4A;
 }
 
 .app-link {
   text-decoration: none;
-  color: black;
-  background-color: rgba(121, 163, 177, 0.3);
+  color: #6C4A4A;
+  background-color: rgba(200, 149, 149, 0.3);
 
   padding: 0px 10px;
 }
@@ -227,8 +271,8 @@ hr {
 /* Work Section */
 
 #work {
-  color: #393534;
-  background-color: #79a3b1;
+  color: #6C4A4A;
+  background-color: #C89595;
   text-align: center;
   padding-bottom: 50px;
   padding-top: 50px;
@@ -244,9 +288,21 @@ hr {
   margin-right: auto;
 }
 
+.table-border {
+  border: 5px dotted #F7F6F2;
+  width: 75%;
+  /* height: auto;     /*needs to adjust and be responsive*/
+  /* width: auto; */ 
+  padding: 30px 20px;
+  /* margin-left: 270px;
+  margin-right: 270px; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
 table, tr, td, th {
   justify-content: center;
-  border: 1px solid black;
+  border: 1px solid #6C4A4A;
   padding: 15px 10px;
 }
 table {
@@ -265,7 +321,7 @@ tr {
 .resume-attachment {
   padding-top: 20px;
   text-decoration: underline;
-  color: #393534;
+  color: #6C4A4A;
 }
 
 .resume-attachment:hover {
@@ -279,13 +335,13 @@ tr {
 /* Contact Section */
 
 #contact {
-  color: #393534;
-  background-color: #e3f2fd;
+  color: #6C4A4A;
+  background-color: #DDBEBE;
   text-align: center;
   vertical-align: middle;
   justify-content: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 
 .contact-title {
@@ -295,7 +351,7 @@ tr {
 
 .social-media {
   padding-right: 20px;
-  color: #393534;
+  color: #6C4A4A;
 }
 
 .social-media:hover {
@@ -309,13 +365,13 @@ tr {
 #footer {
   padding-top: 6% ;
   padding-bottom: 6%;
-  background-color: #00000;
+  /* background-color: #00000; */
   text-align: center;
 }
 
 .copyright {
   /* text-align: center; */
-  color: #393534;
+  color: #6C4A4A;
   font-weight: bold;
   margin-bottom: 0;
   padding-bottom: 10px;
