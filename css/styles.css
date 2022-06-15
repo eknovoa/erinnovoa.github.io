@@ -230,6 +230,11 @@ hr {
   height: 500px;
   width: 250px;
 }
+/* 
+.financial {
+  height: 200px;
+  width: 200px;
+} */
 
 .hundehutte2 {
   height: 490px;
@@ -348,7 +353,6 @@ tr {
   padding-bottom: 10px;
 }
 
-
 .social-media {
   padding-right: 20px;
   color: #6C4A4A;
@@ -376,3 +380,5 @@ tr {
   margin-bottom: 0;
   padding-bottom: 10px;
 }
+
+
