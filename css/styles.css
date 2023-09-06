@@ -237,12 +237,6 @@ hr {
   padding: 5px 5px;
 }
 
-/* 
-.financial {
-  height: 200px;
-  width: 200px;
-} */
-
 .hundehutte2 {
   height: 490px;
   width: 250px;
@@ -253,6 +247,7 @@ hr {
   text-align: center;
   justify-content: center;
   padding-top: 40px;
+  padding-bottom: 5px;
 }
 
 .app-description {
