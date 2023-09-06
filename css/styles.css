@@ -226,10 +226,16 @@ hr {
 }
 
 
-.hundehutte, .yogi, .figgy {
+.hundehutte, .yogi {
   height: 500px;
   width: 250px;
 }
+
+.figgy {
+  height: 300px;
+  width: 150px;
+}
+
 /* 
 .financial {
   height: 200px;
